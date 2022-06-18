@@ -1,0 +1,13 @@
+Web VPython 3.2
+scene.lights = []
+scene.background = color.white
+a = ring(pos = vec(0,0,0), color = color.black, emissive = True)
+attach_light(a)
+b = ring(pos = vec(0,0,-2.5), color = color.red, emissive = True)
+attach_light(b)
+c = ring(pos = vec(0,0,2.5), color = color.blue, emissive = True)
+attach_light(b)
+d = ring(pos = vec(0,-1.2,-1.2), color = color.green, emissive = True)
+attach_light(b)
+e = ring(pos = vec(0,-1.2,1.2), color = color.yellow, emissive = True)
+attach_light(b)
